@@ -1,0 +1,37 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Biography] (Table)
+       [dbo].[HomeCarouselImage] (Table)
+       [dbo].[HomeConfiguration] (Table)
+       [dbo].[Image] (Table)
+       [dbo].[ImageList] (Table)
+       [dbo].[MenuItem] (Table)
+       [dbo].[Rol] (Table)
+       [dbo].[User] (Table)
+       [dbo].[ImageFile] (FileTable)
+       [dbo].[VideoFile] (FileTable)
+       Default Constraint: unnamed constraint on [dbo].[Biography] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[HomeCarouselImage] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[HomeConfiguration] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Image] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[ImageList] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[ImageList] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[MenuItem] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[User] (Default Constraint)
+       [dbo].[FK_Biography_ToImage] (Foreign Key)
+       [dbo].[FK_HomeCarouselImage_ToImage] (Foreign Key)
+       [dbo].[FK_HomeConfigurationCard_ToImage] (Foreign Key)
+       [dbo].[FK_HomeConfigurationVideo_ToImage] (Foreign Key)
+       [dbo].[FK_ImageList_ToImage] (Foreign Key)
+
+** Supporting actions

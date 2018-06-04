@@ -1,0 +1,9 @@
+C:\TFS\cStore\Source\CStore\Dev05\CStore.Database\bin\Debug\CStore.Database.dacpac
+C:\TFS\cStore\Source\CStore\Dev05\CStore.Database\obj\Debug\CStore.Database.dll
+C:\TFS\cStore\Source\CStore\Dev05\CStore.Database\obj\Debug\CStore.Database.pdb
+C:\TFS\cStore\Source\CStore\Dev05\CStore.Database\bin\Debug\CStore.Database.dll
+C:\TFS\cStore\Source\CStore\Dev05\CStore.Database\bin\Debug\CStore.Database.pdb
+C:\TFS\cStore\Source\CStore\Dev05\CStore.Database\obj\Debug\Model.xml
+C:\TFS\cStore\Source\CStore\Dev05\CStore.Database\obj\Debug\refactor.xml
+C:\TFS\cStore\Source\CStore\Dev05\CStore.Database\obj\Debug\postdeploy.sql
+C:\TFS\cStore\Source\CStore\Dev05\CStore.Database\obj\Debug\predeploy.sql

@@ -1,0 +1,31 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[MenuItem]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[MenuItem].[Area] is being dropped, data loss could occur.
+       The column [dbo].[MenuItem].[Controller] is being dropped, data loss could occur.
+       The column [dbo].[MenuItem].[MainMenuId] on table [dbo].[MenuItem] must be added, but the column has no default value
+         and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[MenuItem] (Default Constraint)
+     Table rebuild
+       [dbo].[MenuItem] (Table)
+     Create
+       [dbo].[MainMenu] (Table)
+       Default Constraint: unnamed constraint on [dbo].[MainMenu] (Default Constraint)
+       [dbo].[FK_MenuItem_ToMainMenu] (Foreign Key)
+
+** Supporting actions
+
+The column [dbo].[MenuItem].[Area] is being dropped, data loss could occur.
+The column [dbo].[MenuItem].[Controller] is being dropped, data loss could occur.
+The column [dbo].[MenuItem].[MainMenuId] on table [dbo].[MenuItem] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

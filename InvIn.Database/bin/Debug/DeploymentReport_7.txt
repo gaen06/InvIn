@@ -1,0 +1,44 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [InvIn] (Schema)
+       [InvIn].[AdminItem] (Table)
+       [InvIn].[MainMenu] (Table)
+       [InvIn].[User] (Table)
+       [InvIn].[Rol] (Table)
+       [InvIn].[Image] (Table)
+       [InvIn].[Biography] (Table)
+       [InvIn].[ContactInfo] (Table)
+       [InvIn].[HomeCarouselImage] (Table)
+       [InvIn].[HomeConfiguration] (Table)
+       [InvIn].[ImageList] (Table)
+       [InvIn].[MenuItem] (Table)
+       [InvIn].[Document] (Table)
+       Default Constraint: unnamed constraint on [InvIn].[MainMenu] (Default Constraint)
+       Default Constraint: unnamed constraint on [InvIn].[User] (Default Constraint)
+       Default Constraint: unnamed constraint on [InvIn].[Image] (Default Constraint)
+       Default Constraint: unnamed constraint on [InvIn].[Biography] (Default Constraint)
+       Default Constraint: unnamed constraint on [InvIn].[HomeCarouselImage] (Default Constraint)
+       Default Constraint: unnamed constraint on [InvIn].[HomeConfiguration] (Default Constraint)
+       Default Constraint: unnamed constraint on [InvIn].[ImageList] (Default Constraint)
+       Default Constraint: unnamed constraint on [InvIn].[ImageList] (Default Constraint)
+       Default Constraint: unnamed constraint on [InvIn].[MenuItem] (Default Constraint)
+       [InvIn].[FK_Biography_ToImage] (Foreign Key)
+       [InvIn].[FK_ContactInfo_ToImage] (Foreign Key)
+       [InvIn].[FK_HomeCarouselImage_ToImage] (Foreign Key)
+       [InvIn].[FK_HomeConfigurationCard_ToImage] (Foreign Key)
+       [InvIn].[FK_HomeConfigurationVideo_ToImage] (Foreign Key)
+       [InvIn].[FK_ImageList_ToImage] (Foreign Key)
+       [InvIn].[FK_MenuItem_ToMainMenu] (Foreign Key)
+       [InvIn].[FK_PageNews_ToImage] (Foreign Key)
+
+** Supporting actions
